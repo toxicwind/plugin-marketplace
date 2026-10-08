@@ -1,3 +1,10 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# token-scrub 2026-09-14: never commit secrets
+*.pat
+github_*_pat.json
+.env*
+*secret*
+*token*
